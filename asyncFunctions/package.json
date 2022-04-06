@@ -1,0 +1,28 @@
+{
+  "name": "asyncfunctions",
+  "version": "1.0.0",
+  "description": "creating an api for practice",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:challenge":"node src/callback/challengeMorty.js",
+    "promise": "node src/promises/index.js",
+    "promise:challenge": "node src/promises/challengeFetch.js",
+    "async":"node src/asyncCalls/index.js",
+    "async:challenge":"node src/asyncCalls/asyncChallenge.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "platziExperiments"
+  },
+  "keywords": [
+    "async",
+    "API"
+  ],
+  "author": "David Perez",
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
